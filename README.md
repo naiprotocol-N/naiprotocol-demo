@@ -1,10 +1,10 @@
-#  NAi Protocol Demo — Decentralized AI Infrastructure
+# NAi Protocol Demo — Decentralized AI Infrastructure
 
 Welcome to the demo smart contracts of **NAi Protocol**, a decentralized infrastructure project combining blockchain governance with real-time AI-based trust scoring. This repository contains simplified and verified contracts used in our testnet deployment for grant applications, auditing, and integration testing.
 
 ---
 
-##  Overview
+## Overview
 
 NAi Protocol enables:
 - ✅ **AI-powered reputation scoring** for nodes and users.
@@ -16,7 +16,7 @@ NAi Protocol enables:
 
 ---
 
-##  Contract Architecture
+## Contract Architecture
 
 | Contract                            | Purpose |
 |-------------------------------------|---------|
@@ -31,11 +31,13 @@ NAi Protocol enables:
 
 All contracts are written in **Solidity ^0.8.x** and rely on [OpenZeppelin Contracts](https://github.com/OpenZeppelin/openzeppelin-contracts).
 
+> ⚠️ These contracts are deployed during the testnet phase and may be upgraded significantly for the mainnet release.
+
 ---
 
-##  Deployment (Polygon Mainnet)
+## Deployment (Polygon Mainnet)
 
-All contracts below are verified on [PolygonScan](https://polygonscan.com):
+All contracts are deployed and verified on [PolygonScan](https://polygonscan.com):
 
 | Contract                   | Address |
 |----------------------------|---------|
@@ -49,7 +51,7 @@ All contracts below are verified on [PolygonScan](https://polygonscan.com):
 
 ---
 
-##  How to Test
+## How to Test
 
 ```bash
 git clone https://github.com/naiprotocol-N/naiprotocol-demo.git
@@ -64,34 +66,37 @@ npx hardhat compile
 # Deploy to local or testnet
 npx hardhat run scripts/deploy.ts --network mumbai
 
- Use Cases
-🗳️DAO governance for protocol upgrades
+---
 
+##  Use Cases
+
+ DAO governance for protocol upgrades  
  Reward distribution based on:
+- Social task completion (e.g. Twitter/Discord)
+- Node uptime and AI-based performance
+- Contributor vesting schedules  
+ Tamper-proof logging of bans, violations, and rewards
 
-Social task completion (e.g. Twitter tasks)
+---
 
-Node uptime and performance scoring
+##  Grant Funding Use
 
-Contributor vesting schedules
+This repository supports a non-dilutive grant request (~$10k–$20k) to fund:
+- Infrastructure & uptime scoring backend
+- Frontend DAO interface & dashboards
+- Community education & onboarding tools
 
-🛡 Tamper-proof logging of bans, violations, and rewards
+---
 
- Grant Funding Use
-This repo is part of a testnet/mainnet deployment in support of non-dilutive grant funding (~$10k–$20k) to cover:
+##  License
 
-Node infrastructure and uptime scoring
-
-Frontend for DAO + monitoring dashboard
-
-Community onboarding + education tools
-
- License
 MIT License — open source and free to use.
 
-🔗 Links
- Website: naiprotocol.com
+---
 
- DAO App: dao.naiprotocol.com
+## 🔗 Links
 
- Twitter: @InfoNaiprotocol
+ Website: [naiprotocol.com](https://naiprotocol.com)  
+ DAO App: [dao.naiprotocol.com](https://dao.naiprotocol.com)  
+ Twitter: [@InfoNaiprotocol](https://twitter.com/InfoNaiprotocol)
+
