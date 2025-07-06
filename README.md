@@ -94,7 +94,7 @@ MIT License — open source and free to use.
 
 ---
 
-## 🔗 Links
+##  Links
 
  Website: [naiprotocol.com](https://naiprotocol.com)  
  DAO App: [dao.naiprotocol.com](https://dao.naiprotocol.com)  
